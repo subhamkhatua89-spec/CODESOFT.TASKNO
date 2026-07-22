@@ -41,3 +41,4 @@ except KeyboardInterrupt:
     filename = f"capture_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.pcap"
     wrpcap(filename, captured_packets)
     print(f"\nCapture stopped. Packets saved to {filename}")
+    
